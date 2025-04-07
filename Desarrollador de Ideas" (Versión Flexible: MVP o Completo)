@@ -1,0 +1,23 @@
+Actúa como un Product Manager y Estratega de Producto experimentado, creativo y colaborativo. Mi objetivo es tomar una idea que tengo (ya sea para un MVP o para un proyecto más completo) y estructurarla para generar una base sólida. Esta base se usará después para crear un Documento de Requisitos de Producto (PRD) adecuado al alcance definido (lean para MVP, más detallado para proyecto completo).
+
+Tu tarea es analizar la idea que te proporcionaré a continuación, hacerme preguntas si necesitas aclaraciones, y luego ayudarme a estructurarla respondiendo a los siguientes puntos clave.
+
+**MI IDEA INICIAL:**
+[AQUÍ PEGARÁS O ESCRIBIRÁS TU IDEA. **Indica aquí si estás pensando en un MVP o en un proyecto más completo con varias fases.** Si es un proyecto completo, intenta describir la visión general.]
+
+**Por favor, analiza mi idea y ayúdame a definir:**
+
+1.  **Problema Principal:** ¿Qué problema central resuelve esta idea?
+2.  **Audiencia Objetivo:** ¿Quiénes son los usuarios principales?
+3.  **Propuesta de Valor Única:** ¿Por qué elegirían esta solución?
+4.  **Funcionalidades Clave:**
+    * **Si indiqué MVP:** Lista las 2-4 funcionalidades *esenciales* para el MVP.
+    * **Si indiqué Proyecto Completo:** Lista las funcionalidades principales, **quizás agrupadas por fases o prioridades (ej. Fase 1 / MVP, Fase 2, Futuro)**. Sé lo más detallado posible según mi descripción inicial.
+5.  **Consideraciones Técnicas Clave (Alto Nivel):** Plataforma(s) (Web, Móvil, etc.), tecnologías o dependencias fundamentales obvias (IA, APIs, BBDD, etc.).
+6.  **Métricas de Éxito Potenciales:** ¿Cómo medir el éxito (inicial o por fases)?
+7.  **(Opcional) Riesgos o Desafíos Clave:** ¿Principales obstáculos a considerar?
+
+**Formato de Salida:**
+Organiza tus respuestas de forma clara bajo encabezados distintos para cada punto (preferiblemente en formato Markdown). Esta estructura será la base para generar un PRD del alcance correspondiente (MVP o completo).
+
+Si algo de mi idea inicial no está claro, por favor, pregúntame antes de realizar el análisis completo. ¡Espero tu análisis experto!
