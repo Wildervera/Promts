@@ -1,0 +1,39 @@
+Actúa como un Líder de Desarrollo Senior y Experto en Arquitectura de Software y Cursor AI. Eres un maestro en traducir requisitos de producto (PRD) en planes de desarrollo ejecutables y eficientes, diseñando flujos de trabajo que integran la asistencia de IA de forma inteligente y siempre bajo supervisión humana experta.
+
+**Mi Objetivo:**
+Necesito un plan integral y accionable para desarrollar el proyecto descrito en el PRD adjunto. Este plan debe ser una guía completa que incluya:
+1.  Un conjunto de **Reglas de Cursor AI específicas** y bien estructuradas, derivadas directamente del PRD.
+2.  Una **Estrategia de Workflow Colaborativo (Humano + IA)** detallada, paso a paso, que explique cómo usar Cursor AI para construir el proyecto definido en el PRD, asegurando la calidad y siguiendo las reglas generadas. Esta estrategia debe incluir **ejemplos concretos de los primeros prompts** a usar con Cursor y **consejos prácticos** para que la colaboración sea fluida y el proyecto "vaya super bien".
+
+**Contexto Principal:**
+* **PRD del Proyecto:** @[Aquí pega el nombre de tu archivo PRD, ej: PRD_GestorDeportivo_MVP.md]
+    *(Opcional: Si no puedes usar @-menciones o el PRD es corto, pega aquí su contenido esencial)*
+
+**Tu Tarea (en dos partes dentro de una misma respuesta):**
+
+**Parte 1: Generación de Reglas de Cursor Específicas**
+
+1.  **Analiza a Fondo el PRD:** Identifica la Pila Tecnológica, los Requisitos No Funcionales (NFRs) cruciales (rendimiento, seguridad, precisión, usabilidad), la lógica de negocio compleja o específica del dominio (ej. cálculos, reglas particulares), y los patrones arquitectónicos o de diseño implícitos o explícitos.
+2.  **Genera Reglas `.mdc`:** Propón el contenido para uno o más archivos de reglas (`.mdc`) lógicamente organizados (sugiere nombres como `general.mdc`, `backend_db.mdc`, `frontend_ui.mdc`, `logica_negocio.mdc`, etc.). Para cada archivo:
+    * Incluye `description:` y `globs:` sugeridos en el frontmatter.
+    * Redacta reglas claras y accionables para Cursor que refuercen el stack tecnológico, apoyen los NFRs, guíen la implementación de lógica clave y promuevan la consistencia según el PRD.
+
+**Parte 2: Estrategia de Workflow Colaborativo (Humano + Cursor)**
+
+1.  **Diseña Fases del Workflow:** Basado en el PRD y **en las reglas que acabas de generar en la Parte 1**, estructura un flujo de trabajo por fases realistas (ej. Configuración, Diseño BBDD, Backend API Core, Frontend UI Core, Implementación por Módulo/Feature, Pruebas, Refinamiento, Despliegue). Adapta las fases al alcance del PRD (MVP o completo).
+2.  **Detalla Pasos y Colaboración por Fase:** Para cada fase o hito importante:
+    * Describe las **tareas clave**.
+    * Indica cómo usar Cursor `[CURSOR]`: Especifica qué pedirle, qué contexto crucial darle (siempre mencionando el `@PRD` y las `@Reglas` pertinentes, además de archivos existentes). **Proporciona ejemplos claros de los PRIMEROS PROMPTS a utilizar en las fases iniciales** (ej: "Configura la estructura inicial del proyecto para [Framework Backend] siguiendo las convenciones de las @Reglas", "Genera el modelo ORM/SQL para la tabla 'X' basado en la sección Y del @PRD y las @Reglas/db.mdc").
+    * Señala dónde la intervención humana `[HUMAN]` es **fundamental e irremplazable**: Revisión de código crítico (seguridad, lógica core), decisiones de arquitectura/diseño, definición de interfaces complejas, interpretación de ambigüedades, pruebas de aceptación, depuración avanzada.
+3.  **Orden Lógico:** Sugiere una secuencia lógica para implementar las funcionalidades descritas en el PRD, considerando las dependencias.
+4.  **Consejos para que "Vaya Super Bien":** Integra a lo largo del workflow recomendaciones prácticas para la colaboración Humano-IA:
+    * **Supervisión Activa:** Cómo revisar eficientemente el código de Cursor (buscar patrones de error comunes, verificar lógica contra PRD).
+    * **Feedback Efectivo:** Cómo pedirle a Cursor que corrija o refine su propio código de forma iterativa.
+    * **Uso Inteligente:** Cuándo dejar que Cursor haga el trabajo pesado (boilerplate, tareas repetitivas) y cuándo tomar el control total (lógica única, diseño crítico).
+    * **Manejo de Errores de la IA:** Qué hacer si Cursor se desvía, genera código incorrecto o no sigue las reglas (regenerar con más contexto, corregir manualmente, dividir la tarea).
+    * **Consistencia:** Cómo usar las `@Reglas` y el `@PRD` consistentemente en los prompts para mantener a Cursor alineado.
+
+**Formato de Salida:**
+Presenta la respuesta completa en formato Markdown, dividida claramente en las dos secciones solicitadas: "Reglas de Cursor Sugeridas" y "Workflow de Desarrollo Colaborativo". Utiliza los marcadores `[CURSOR]` y `[HUMAN]` de forma destacada en la sección del workflow.
+
+**Instrucción Final:** El resultado debe ser una guía integral y accionable que me permita iniciar el desarrollo del proyecto con confianza, estableciendo desde el principio una dinámica de colaboración productiva y de alta calidad con Cursor AI
