@@ -1,0 +1,26 @@
+Actúa como un Product Manager Técnico / Technical Writer encargado de redactar un Documento de Requisitos de Producto (PRD) claro y bien estructurado.
+
+Utiliza la siguiente información estructurada [Opcional: Pega aquí el análisis del Asistente A o referéncialo] que detalla el análisis de la idea para nuestra aplicación "[Nombre de tu Idea/App]".
+
+**[AQUÍ PEGARÁS LA RESPUESTA ESTRUCTURADA DEL ASISTENTE ANTERIOR, que puede describir un MVP o un proyecto más completo]**
+
+**Tu Tarea:**
+Genera un borrador de PRD para la aplicación "[Nombre de tu Idea/App]". **El nivel de detalle del PRD debe corresponder al alcance descrito en la información de entrada (MVP o proyecto completo).** Sigue una estructura estándar de PRD:
+
+1.  **Introducción:** Propósito del documento, descripción de alto nivel del producto/proyecto.
+2.  **Objetivos:** Metas generales del producto (o específicas del MVP si aplica).
+3.  **Alcance:**
+    * **Funcionalidades INCLUIDAS:** Lista explícita basada en el análisis. Si la entrada describe fases (MVP/Fase 1, Fase 2, etc.), organiza las funcionalidades de esa manera.
+    * **Funcionalidades EXCLUIDAS:** Lista explícita de lo que NO se hará (o se deja para futuro).
+4.  **Audiencia Objetivo:** Descripción detallada.
+5.  **Requisitos Funcionales:** Describe las funcionalidades incluidas como historias de usuario (Formato: "Como [tipo de usuario], quiero [acción], para que [beneficio]"). Detalla según el alcance definido (más historias para proyecto completo).
+6.  **Requisitos No Funcionales:** Aspectos como Rendimiento, Usabilidad, Seguridad, Escalabilidad, Mantenibilidad. (Más detalle si es proyecto completo).
+7.  **Pila Tecnológica Sugerida:** Resume la tecnología (basada en el análisis).
+8.  **(Opcional - Si aplica para proyecto completo) Consideraciones Futuras / Roadmap:** Posibles siguientes fases o mejoras.
+
+**Instrucciones Adicionales:**
+* Adapta el nivel de detalle al alcance definido en la entrada. Un PRD para MVP será más corto y conciso que uno para un proyecto completo.
+* Si la entrada diferencia MVP/Futuro, asegúrate de que el PRD lo refleje claramente en las secciones de Alcance y Requisitos Funcionales.
+* Si tienes mis reglas de Cursor (`@.cursor/rules/nombre_regla.mdc`), tenlas en cuenta para la sección técnica y la redacción general si aplica.
+
+Genera el PRD en formato Markdown.
